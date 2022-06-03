@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_amber_100"
+    tools:context="com.example.bottomNav.AddScreen">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        app:elevation="10dp"
+        app:itemIconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/item" />
+
+    <TextView
+        android:id="@+id/topTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bevan"
+        android:text="Escoger  tipo"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hab1"
+        app:layout_constraintEnd_toEndOf="@+id/btn_hab1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_hab1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_hab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bevan"
+        android:text="Estudio"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hab2"
+        app:layout_constraintEnd_toEndOf="@+id/btn_hab2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_hab2"
+        app:layout_constraintTop_toBottomOf="@+id/topTXT" />
+
+    <Button
+        android:id="@+id/btn_hab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bevan"
+        android:text="Deportes"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hab3"
+        app:layout_constraintEnd_toEndOf="@+id/btn_hab3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_hab3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hab1" />
+
+    <Button
+        android:id="@+id/btn_hab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bevan"
+        android:text="Nutrición"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hab4"
+        app:layout_constraintEnd_toEndOf="@+id/btn_hab4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_hab4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hab2" />
+
+    <Button
+        android:id="@+id/btn_hab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bevan"
+        android:text="Salud"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hab5"
+        app:layout_constraintEnd_toEndOf="@+id/btn_hab5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_hab5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hab3" />
+
+    <Button
+        android:id="@+id/btn_hab5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bevan"
+        android:text="Trabajo"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_hab6"
+        app:layout_constraintEnd_toEndOf="@+id/btn_hab6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btn_hab6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hab4" />
+
+    <Button
+        android:id="@+id/btn_hab6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bevan"
+        android:text="Hogar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hab5" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="51dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hab6"
+        app:srcCompat="@drawable/sport" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

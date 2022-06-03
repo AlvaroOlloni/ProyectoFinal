@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/bg_home.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/boton1.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/ic_email.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/ic_person.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/round_bg.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/drawable/wave.xml" value="0.3465" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/layout/activity_account_screen.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/layout/activity_add_screen.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/layout/activity_info_habito.xml" value="0.34427083333333336" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/layout/activity_view_habitos.xml" value="0.307518115942029" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectoTerminado/DailyRoutine3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectosDart/Pruebas/ProyectoFinal/app/src/main/res/layout/activity_habitos.xml" value="0.1" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectosDart/Pruebas/ProyectoFinal/app/src/main/res/layout/activity_mostrar_datos.xml" value="0.1" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectosDart/Pruebas/ProyectoFinal/app/src/main/res/layout/activity_mostrar_habito.xml" value="0.16742654508611957" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectosDart/Pruebas/ProyectoFinal/app/src/main/res/layout/activity_register_screen.xml" value="0.1" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectosDart/Pruebas/ProyectoFinal/app/src/main/res/layout/activity_view_habitos.xml" value="0.1" />
+        <entry key="..\:/Users/ollon/OneDrive/Escritorio/ProyectosDart/Pruebas/ProyectoFinal/app/src/main/res/layout/dialog_changepass.xml" value="0.16742654508611957" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
